@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- android:fillAfter - 如果設置為true，控件動畫結束時，將保持動畫最後時的狀態 -->
+
+    <!-- translate：平移（畫面轉換位置移動動畫效果） -->
+    <translate
+        android:fromXDelta="0%p"
+        android:toXDelta="-17%p"
+        android:duration="1000"
+        android:repeatMode="reverse"
+        android:repeatCount="1"
+        android:startOffset="700"/>
+
+    <!-- android:fromXDelta - 起始點 X 軸坐標，可以是數值、百分數、百分數p三種樣式。 -->
+    <!-- android:fromYDelta - 起始點 Y 軸從標，可以是數值、百分數、百分數p三種樣式。 -->
+    <!-- android:toXDelta - 結束點 X 軸坐標 -->
+    <!-- android:toYDelta - 結束點 Y 軸坐標 -->
+    <!-- android:startOffset - 動畫執行前的等待時間（時間單位：毫秒）-->
+
+    <!-- android:repeatMode - 重複類型，即回放時的動作。有reverse和restart兩個值。
+         reverse　表示倒序回放，restart　表示重新放一遍，必須與　repeatCount　一起使用才能看到效果。 -->
+</set>
